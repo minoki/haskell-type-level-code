@@ -61,10 +61,10 @@ $ ghci chap10-theorem-proving/Main.hs
 $ runghc chap12-ghc-typenats/LargePeanoNat.hs # -> エラー
 $ runghc chap12-ghc-typenats/LargeNat.hs
 $ runghc chap12-ghc-typenats/LimitRange.hs
-$ runghc chap12-ghc-typenats/NoEquality.hs
-$ runghc chap12-ghc-typenats/NoKnownNat.hs
+$ runghc chap12-ghc-typenats/NoEquality.hs  # -> エラー
+$ runghc chap12-ghc-typenats/NoKnownNat.hs  # -> エラー
 $ cabal run chap12-ghc-typenats/PluginExample.hs
-$ cabal run chap12-ghc-typenats/PluginExample2.hs
+$ cabal run chap12-ghc-typenats/PluginExample2.hs  # -> エラー
 $ cabal run chap12-ghc-typenats/SingletonsBaseExample.hs
 $ cabal run chap12-ghc-typenats/TypeNaturalExample.hs
 $ cabal run chap12-ghc-typenats/ConstraintsExample.hs
