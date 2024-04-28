@@ -23,6 +23,8 @@ $ghc -fno-code $ghcopt chap12-ghc-typenats/LimitRange.hs
 [ "$ghc" = "ghc-9.10" ] || cabal run -w "$ghc" --ghc-options="$ghcopt" chap12-ghc-typenats/ConstraintsExample.hs
 $ghc -fno-code $ghcopt chap13-symbol/OverloadedLabels.hs
 $ghc --interactive $ghcopt chap14-ghc-generics/ConstructorName.hs < /dev/null
+$ghc --interactive $ghcopt chap14-ghc-generics/DeriveAnyClass.hs < /dev/null
+[ "$ghc" = "ghc-9.2" ] || $ghc --interactive $ghcopt chap14-ghc-generics/Generically.hs < /dev/null
 $ghc --interactive $ghcopt chap15-type-level-list/reverse.hs < /dev/null
 $ghc --interactive $ghcopt chap15-type-level-list/HList.hs < /dev/null
 $ghc --interactive $ghcopt chap15-type-level-list/List.hs < /dev/null

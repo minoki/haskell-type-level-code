@@ -80,6 +80,8 @@ $ runghc chap13-symbol/OverloadedLabels.hs
 
 ```
 $ ghci chap14-ghc-generics/ConstructorName.hs
+$ ghci chap14-ghc-generics/DeriveAnyClass.hs
+$ ghci chap14-ghc-generics/Generically.hs  # GHC 9.4 以降
 ```
 
 ## 第15章 応用：型レベルリスト
