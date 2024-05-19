@@ -2,6 +2,8 @@
 
 * [サポートページ](https://lab.miz-ar.info/haskell-type-level/)
 
+GHC 9.2からGHC 9.10までで動作確認しています（第18章はGHC 9.10のみ）。
+
 ## 第1章 型とカインド
 
 ## 第2章 幽霊型とProxy
